@@ -17,12 +17,12 @@ body {
 
 a {
   color: #8EBE5C;
-  text-decoration:none
+  text-decoration: none
 }
 
 a:hover {
   color: #8EBE5C;
-  text-decoration:none
+  text-decoration: none
 }
 
 h1,
@@ -126,7 +126,7 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  
+
   padding: 0;
 }
 
@@ -809,6 +809,7 @@ section {
   background: #B1A6FF;
   border: 2px solid #B1A6FF;
 }
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1168,94 +1169,84 @@ section {
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
-
-.contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
+.contact {
+  background-color: #FFFFFD;
+  color: #8EBE5C;
 }
 
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
+.contact .section-heading {
+  color: #8EBE5C;
 }
 
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
+.contact form#contactForm .form-group {
+  margin-bottom: 1.5rem;
 }
 
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
+.contact form#contactForm .form-group input,
+.contact form#contactForm .form-group textarea {
+  padding: 1.25rem;
 }
 
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
+.contact form#contactForm .form-group input.form-control {
+  height: auto;
 }
 
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
+.contact form#contactForm .form-group-textarea {
+  height: 100%;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
+.contact form#contactForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+
+.contact form#contactForm p.help-block {
+  margin: 0;
+}
+
+.contact form#contactForm .form-control:focus {
+  border-color: #8EBE5C;
   box-shadow: none;
-  font-size: 14px;
 }
 
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: #4eb478;
+.contact form#contactForm ::-webkit-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #ced4da;
 }
 
-.contact .php-email-form input {
-  padding: 10px 15px;
+.contact form#contactForm :-moz-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #ced4da;
 }
 
-.contact .php-email-form textarea {
-  padding: 12px 15px;
+.contact form#contactForm ::-moz-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #ced4da;
 }
 
-.contact .php-email-form button[type=submit] {
-  background: #4eb478;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
+.contact form#contactForm :-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #ced4da;
+}
+
+.contact .form-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
   border-radius: 5px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #45a36c;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+  transition: 0.3s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  background-color: #8EBE5C;
 }
 
 /*--------------------------------------------------------------
@@ -1404,15 +1395,13 @@ section {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.8);
 }
-#footer .copyright {
-  text-align: center;
-  float: left;
 
+#footer .footer-newsletter a{
+  color: #FFFFFD;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
 }
-
-#footer .credits {
-  float: right;
-  text-align: center;
-  font-size: 13px;
-
+#footer .footer-newsletter a:hover {
+  color: #8EBE5C;
+  text-decoration: none;
 }
